@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Sản Phẩm | Nguyễn Thanh Dũng</title>
 </head>
+<style>
+*{
+	box-sizing: border-box;
+}
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: url('img/background.jpg');
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+	}
+	.header{
+		position: relative;
+		display: flex;
+		color: white;
+		/* background-color: gray; */
+	}
+	.header a{
+		color: white;
+		text-decoration: none;
+		margin-left: 40px;
+		font-weight: bold;
+	}
+	.left{
+		width: 7%;
+		padding: 1rem 3rem;
+		background-color: #5e5cb687;
+	}
+	.center, .right{
+		position: absolute;
+		top: 50px;
+		left: 200px;
+	}
+	.right{
+		left: 75%;
+	}
+	.container{
+		/* position: relative; */
+		height: 100%;
+		width: 100%;
+	}
+	.avt{
+		/* position: absolute; */
+		/* bottom: 50px; */
+	}
+	.avt img{
+		width: 70px;
+		height: 70px;
+
+	}
+</style>
 <body>
-	<h1>Hello </h1>
+	<div class="header">
+		<div class="left">
+			<h1>HiTalk</h1>
+		</div>
+		<div class="center">
+			<a href="#">Learn</a>
+			<a href="#">Practice</a>
+		</div>
+		<div class="right">
+			<a href="#">HTML</a>
+			<a href="#">CSS</a>
+			<a href="#">JS</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="avt">
+			<img src="img/avt.jpg" alt="avatar">
+			<span>The g challenge <br> hero header <br> https://ui8.net</span>
+		</div>
+		<div class="started">
+			
+		</div>
+		<div class="img"></div>
+	</div>
 </body>
 </html>
